@@ -1,0 +1,61 @@
+#rectangles{
+    /* position: absolute; */
+    padding: 0;
+    z-index: -1;
+    width: 62vw;
+    float: right;
+    /* height:72.5vw; */
+}
+#container{
+    position: absolute;
+    /* background: #F4B804; */
+    width: 20vw;
+    top: 18vw;
+    left: 0;
+    padding-left: 11vw;
+
+}
+#title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    /* background-color: bisque; */
+    padding-bottom: 3vw;
+    /* text-align: justify; */
+    width: 32vw;
+
+}
+#content{
+    /* font-family: 'SF Pro Text'; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vw;
+    width: 44vw;
+    padding-bottom: 4vw;
+    letter-spacing: 0.08em;
+    /* text-align: justify; */
+    
+}
+
+
+#explore_btn{
+    font-weight: 400;
+    font-size: 2vw;
+    color: #FFFFFF;
+    padding: 1vw 4vw;
+    background: #F4B804;
+    border: 1px solid #F4B804;
+    border-radius: 1.2vw;
+    cursor: pointer;
+}
+#desktop1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: aqua; */
+    height: 67.3vw;
+    z-index: -2;
+    margin-bottom: 0;
+}

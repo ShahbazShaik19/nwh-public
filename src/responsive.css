@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1485px) {
+    .bm-burger-button {
+        display: none;
+  }
+}
+@media only screen and (max-width: 1485px) {
+
+  .header #top_list{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 560px) {
+
+    .bm-item{
+      font-size: 3.5vw !important;
+    }
+    .rec-dot_active {
+        padding: 0.2vw !important;
+    }
+  }
+    
+
+@media only screen and (min-width: 560px) {
+
+    .bm-item{
+      font-size: 2vw !important;
+    }
+    
+  }
+  @media only screen and (min-width: 768px) {
+    #title{
+        font-size: 3.5vw !important;
+    }
+    #content{
+        font-size: 2vw !important;
+    }
+    #explore_btn{
+        font-size: 1.5vw !important;
+    }
+    .rec-dot_active {
+        padding: 0.5vw !important;
+    }
+    #aboutus h3{
+        font-size: 2.5vw !important;
+    }
+    #aboutus p{
+        font-size: 1.55vw !important;
+        line-height: 2.5vw !important;
+    }
+    #our_products_btn{
+        font-size: 1.5vw !important;
+    }
+    .img_plus_text .description h3{
+        font-size: 1vw !important;
+        line-height: 1vw !important;
+    }
+    .img_plus_text .description p{
+        font-size: 0.9vw !important;
+        line-height: 1vw !important;
+    }
+    #ourteam{
+        font-size: 2vw !important;
+    }
+    #menu{
+        font-size: 1.2vw !important;
+        line-height: 2vw !important;
+    }
+    #menu img{
+        width: 1.8vw !important;
+    }
+
+  }
+
+  @media only screen and (min-width: 900px) {
+
+    .bm-item{
+      font-size: 1.5vw !important;
+    }
+  }
+
+
+    

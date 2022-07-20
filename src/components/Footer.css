@@ -1,0 +1,66 @@
+#footer{
+    position: relative;
+    margin-top: -3vw;
+    background: #FFE494;
+    height: 25.8vw;
+
+    display: flex;
+    align-items: center;
+}
+
+#btm_rec{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 58vw;
+}
+
+#footer #menu, #footer #logo{
+    display: inline-block;
+    padding: 2.5vw 3vw;
+    /* background-color: aquamarine; */
+}
+
+#footer #logo{
+    border-right: 2px solid #F4B804;
+    padding: 7.5vw 3vw;
+    width: 15vw; 
+}
+#footer #logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#footer #menu{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3vw;
+    /* identical to box height */
+    text-align: left;
+    letter-spacing: 0.08em;
+}
+#menu{
+    z-index: 1;
+}
+#menu div{
+    padding: 0.5vw 0;
+    padding-left: 2vw;
+}
+#menu img{
+    padding-right: 0.5vw;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+#menu div img{
+    padding: 0 0.2vw 0 0;
+    cursor: pointer;
+    width: 3vw;
+}
+#menu h4{
+    margin: 0;
+    padding-bottom: 1vw;
+}
